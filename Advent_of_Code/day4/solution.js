@@ -30,6 +30,7 @@ for (let i = 0; i < inputArray.length; i++) {
             || secondMin <= firstMax && firstMax <= secondMax) {
             countSecondTask++;
         }
+        console.log(firstMin <= secondMin && secondMin <= firstMax)
     }
 }
 console.log(countFirstTask);
